@@ -55,4 +55,9 @@ All commands are run from the root of the project, from a terminal:
 
 Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
 
+---
+
 ## [Midu Deploy](https://645e81ce9873bb1e1ada2033--wonderful-cucurucho-12c589.netlify.app/)
+
+### Resources:
+- https://midu.dev/css-scroll-snap-la-solucion-definitiva-a-la-creacion-de-sliders-en-la-web/
