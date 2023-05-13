@@ -12,7 +12,7 @@ import Logo from "./Logo.astro"
 
   <nav>
     <ul
-      class="flex text-sm [&>li>a]:transition-colors [&>li>a]:duration-500 [&>li>a]:text-current [&>li>a]:font-medium [&>li>a]:inline-block [&>li>a]:px-4 [&>li>a]:py-2"
+      class="hidden md:flex text-sm [&>li>a]:transition-colors [&>li>a]:duration-500 [&>li>a]:text-current [&>li>a]:font-medium [&>li>a]:inline-block [&>li>a]:px-4 [&>li>a]:py-2"
     >
       <li><a href="#">Model S</a></li>
       <li><a href="#">Model 3</a></li>
@@ -25,7 +25,7 @@ import Logo from "./Logo.astro"
 
   <nav class="flex flex-grow justify-end basis-0">
     <ul
-      class="flex text-sm [&>li>a]:transition-colors [&>li>a]:duration-500 [&>li>a]:text-current [&>li>a]:font-medium [&>li>a]:inline-block [&>li>a]:px-4 [&>li>a]:py-2"
+      class="hidden md:flex text-sm [&>li>a]:transition-colors [&>li>a]:duration-500 [&>li>a]:text-current [&>li>a]:font-medium [&>li>a]:inline-block [&>li>a]:px-4 [&>li>a]:py-2"
     >
       <li><a href="#">Soporte</a></li>
       <li><a href="#">Tienda</a></li>
@@ -33,6 +33,33 @@ import Logo from "./Logo.astro"
       <li><a href="#">Menú</a></li>
     </ul>
   </nav>
+</header>
+
+<style>
+@media (max-width: 640px) {
+  .py-3 {
+    text-align: center;
+  }
+  .flex:nth-child(2) {
+    flex-direction: column;
+  }
+  .flex:nth-child(2) ul {
+    flex-direction: column;
+  }
+  .flex:nth-child(2) li {
+    margin: 0.8em 0;
+  }
+  .flex:nth-child(3) {
+    flex-direction: column;
+  }
+  .flex:nth-child(3) ul {
+    flex-direction: column;
+  }
+  .flex:nth-child(3) li {
+    margin: 0.8em 0;
+  }
+}
+</style>
 
   <div
     id="menu-backdrop"
