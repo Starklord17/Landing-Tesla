@@ -61,3 +61,5 @@ Feel free to check [our documentation](https://docs.astro.build) or jump into ou
 
 ### Resources:
 - https://midu.dev/css-scroll-snap-la-solucion-definitiva-a-la-creacion-de-sliders-en-la-web/
+- Formato nuevo para imagenes: [avif](https://www.ionos.es/digitalguide/paginas-web/diseno-web/formato-avif/)
+- 1:20
