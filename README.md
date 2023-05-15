@@ -64,4 +64,5 @@ Feel free to check [our documentation](https://docs.astro.build) or jump into ou
 
 - https://midu.dev/css-scroll-snap-la-solucion-definitiva-a-la-creacion-de-sliders-en-la-web/
 - Formato nuevo para imagenes: [avif](https://www.ionos.es/digitalguide/paginas-web/diseno-web/formato-avif/)
-- 1:37
+- ease-in-out es una función de temporización o timing function utilizada en animaciones y transiciones CSS. Define cómo cambia gradualmente la velocidad de una animación a lo largo del tiempo.
+- [CSS-Tricks](https://css-tricks.com/ease-out-in-ease-in-out/)
