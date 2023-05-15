@@ -58,7 +58,9 @@ Feel free to check [our documentation](https://docs.astro.build) or jump into ou
 
 ---
 
-## [Midu Deploy](https://645e81ce9873bb1e1ada2033--wonderful-cucurucho-12c589.netlify.app/)
+## [Midu Github](https://github.com/midudev/landing-tesla)
+
+## [Netlify Deploy](https://astro-landing-tesla.netlify.app/)
 
 ### Resources:
 
