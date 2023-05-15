@@ -66,3 +66,5 @@ Feel free to check [our documentation](https://docs.astro.build) or jump into ou
 - Formato nuevo para imagenes: [avif](https://www.ionos.es/digitalguide/paginas-web/diseno-web/formato-avif/)
 - ease-in-out es una función de temporización o timing function utilizada en animaciones y transiciones CSS. Define cómo cambia gradualmente la velocidad de una animación a lo largo del tiempo.
 - [CSS-Tricks](https://css-tricks.com/ease-out-in-ease-in-out/)
+- El método *getBoundingClientRect()* es una función proporcionada por el objeto Element en JavaScript que devuelve un objeto DOMRect con información sobre la posición y las dimensiones de un elemento en relación con la ventana del navegador.
+- [Miles de APIs gratuitas para tus desarrollos](https://midu.link/api)
