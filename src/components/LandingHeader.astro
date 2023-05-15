@@ -33,6 +33,19 @@ import Logo from "./Logo.astro"
       <li><a href="#">Menú</a></li>
     </ul>
   </nav>
+  <div
+    id="menu-backdrop"
+    class={`
+      absolute bg-black/5 backdrop-blur-lg rounded
+      translate-x-[var(--left)] translate-y-[var(--top)]
+      left-0 top-0
+      w-[var(--width)] h-[var(--height)]
+      transition-all duration-500
+      ease-in-out opacity-0 -z-10
+    `}
+  >
+  </div>
+  </header>
 </header>
 
 <style>
@@ -61,19 +74,6 @@ import Logo from "./Logo.astro"
 }
 </style>
 
-  <div
-    id="menu-backdrop"
-    class={`
-      absolute bg-black/5 backdrop-blur-lg rounded
-      translate-x-[var(--left)] translate-y-[var(--top)]
-      left-0 top-0
-      w-[var(--width)] h-[var(--height)]
-      transition-all duration-500
-      ease-in-out opacity-0 -z-10
-    `}
-  >
-  </div>
-</header>
 
 <script>
   const listItem = document.querySelectorAll("#landing-header li")

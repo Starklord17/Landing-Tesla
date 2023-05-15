@@ -3,6 +3,7 @@
 ```sh
 npm create astro@latest -- --template basics
 
+
 ```
 
 [![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
@@ -60,6 +61,7 @@ Feel free to check [our documentation](https://docs.astro.build) or jump into ou
 ## [Midu Deploy](https://645e81ce9873bb1e1ada2033--wonderful-cucurucho-12c589.netlify.app/)
 
 ### Resources:
+
 - https://midu.dev/css-scroll-snap-la-solucion-definitiva-a-la-creacion-de-sliders-en-la-web/
 - Formato nuevo para imagenes: [avif](https://www.ionos.es/digitalguide/paginas-web/diseno-web/formato-avif/)
-- 1:20
+- 1:37
