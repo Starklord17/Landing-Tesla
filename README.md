@@ -62,11 +62,11 @@ Feel free to check [our documentation](https://docs.astro.build) or jump into ou
 
 ---
 
-## [Midu Github](https://github.com/midudev/landing-tesla)
+## [Midu Github](https://github.com/midudev/landing-tesla) / [Midu Twitch](https://www.twitch.tv/midudev)
 
 ## [Netlify Deploy](https://astro-landing-tesla.netlify.app/)
 
-### Resources:
+### Notes:
 
 - https://midu.dev/css-scroll-snap-la-solucion-definitiva-a-la-creacion-de-sliders-en-la-web/
 - Formato nuevo para imagenes: [avif](https://www.ionos.es/digitalguide/paginas-web/diseno-web/formato-avif/)
