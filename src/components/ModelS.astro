@@ -32,6 +32,7 @@ import Section from "./Section.astro";
   />
 </Section>
 
+<!-- Verifica si el navegador es Microsoft Edge y cambia la fuente de la imagen en función de ese resultado -->
 <script>
   function isEdge() {
     if (
@@ -44,7 +45,7 @@ import Section from "./Section.astro";
     }
   }
 
-  var imageElement = document.querySelector("#bg-image-models") as HTMLImageElement;
+  let imageElement = document.querySelector("#bg-image-models") as HTMLImageElement;
 
   if (isEdge()) {
     imageElement.src = "model-s.webp";
