@@ -7,19 +7,21 @@ import Logo from "./Logo.astro"
   class="py-3 px-10 flex items-center fixed top-0 w-full justify-between z-40 text-white"
 >
   <div class="flex flex-grow basis-0">
-    <Logo />
+    <a href="#hero-section">
+      <Logo />
+    </a>
   </div>
 
   <nav>
     <ul
       class="hidden md:flex text-sm [&>li>a]:transition-colors [&>li>a]:duration-500 [&>li>a]:text-current [&>li>a]:font-medium [&>li>a]:inline-block [&>li>a]:px-4 [&>li>a]:py-2"
     >
-      <li><a href="#">Model S</a></li>
-      <li><a href="#">Model 3</a></li>
-      <li><a href="#">Model X</a></li>
-      <li><a href="#">Model Y</a></li>
-      <li><a href="#">Powerwall</a></li>
-      <li><a href="#">Carga</a></li>
+      <li><a href="#model-s">Model S</a></li>
+      <li><a href="#model-3">Model 3</a></li>
+      <li><a href="#model-x">Model X</a></li>
+      <li><a href="#model-y">Model Y</a></li>
+      <li><a href="#powerwall">Powerwall</a></li>
+      <li><a href="#carga">Carga</a></li>
     </ul>
   </nav>
 
